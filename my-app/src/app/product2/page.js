@@ -194,7 +194,6 @@ export default function Product2() {
     },
   ];
 
-  // 🔍 Filter logic
   const filteredProducts = products.filter((item) => {
     return (
       (filter === "All" || item.brand === filter) &&
