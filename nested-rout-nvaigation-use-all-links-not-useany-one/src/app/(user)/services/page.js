@@ -2,6 +2,17 @@ import Image from "next/image";
 import React from "react";
 import nature from "@/../public/nature.jpg";
 
+export const metadata = {
+  title: "Services",
+  description:
+    "Our services include web development, mobile app development, and UI/UX design.",
+  authors: [
+    { name: "Anil Kumar" },
+    { name: "Anil Technical", url: "anilkumartechnical.com" },
+  ],
+  keywords: ["next js", "reactjs", "fullstack"],
+};
+
 function services() {
   return (
     <div className="grid grid-cols-3 gap-8">
