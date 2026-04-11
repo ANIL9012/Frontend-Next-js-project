@@ -74,7 +74,6 @@ export default function Product1() {
             key={item.id}
             className="group relative bg-white rounded-2xl shadow-lg overflow-hidden transform hover:-translate-y-2 hover:shadow-2xl transition duration-500"
           >
-            {/* ❤️ Wishlist Icon */}
             <span className="absolute top-3 right-3 p-2 cursor-pointer hover:bg-red-100">
               ❤️
             </span>
