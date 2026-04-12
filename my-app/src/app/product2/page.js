@@ -205,7 +205,6 @@ export default function Product2() {
     <div className="p-6 bg-gray-100 min-h-screen">
       <h1 className="text-4xl font-bold text-center mb-6">🚗 Car Showroom</h1>
 
-      {/* 🔍 Search */}
       <div className="flex justify-center mb-6">
         <input
           type="text"
@@ -215,7 +214,6 @@ export default function Product2() {
         />
       </div>
 
-      {/* 🎯 Filter Buttons */}
       <div className="flex flex-wrap justify-center gap-3 mb-8">
         {["All", "BMW", "Audi", "Lamborghini", "Thar", "Creta"].map((btn) => (
           <button
@@ -228,7 +226,6 @@ export default function Product2() {
         ))}
       </div>
 
-      {/* 🚗 Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {filteredProducts.map((item) => (
           <div
