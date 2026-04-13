@@ -242,7 +242,7 @@ export default function Product2() {
                   View
                 </button>
                 <button className="flex-1 bg-pink-500 text-white py-2 rounded">
-                  Add 🛒
+                  Add
                 </button>
               </div>
             </div>
